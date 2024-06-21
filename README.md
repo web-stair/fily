@@ -12,6 +12,7 @@ Fily Plugin is a lightweight and user-friendly plugin designed to enhance the fi
 ## Features
 **Real-time File Preview:** Instantly previews selected files, allowing users to see the content before uploading.
 **Multiple File Support:** Handles multiple file inputs, displaying a preview for each selected file.
+**Delete Buttons:** You can easily delete unwanted files from selected files with a click.
 **Cross-browser Compatibility:** Ensures consistent performance across major web browsers.
 **Responsive Design:** Previews adapt to various screen sizes and orientations, maintaining usability on mobile and desktop devices.
 
@@ -30,4 +31,4 @@ File Selection: Upon selecting a file, the plugin checks the file extension.
 Include jQuery in your project.
 Add the plugin's JavaScript and CSS files and the plugin will work immediately for any file input.
 
-The jQuery File Preview Plugin simplifies the file selection process by providing immediate feedback on chosen files, enhancing user experience and reducing errors during file uploads.
+The jQuery File Preview Plugin simplifies the file selection process by providing immediate feedback on chosen files, enhancing user experience, and reducing errors during file uploads.
