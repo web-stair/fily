@@ -1,4 +1,8 @@
 # Fily - jQuery plugin for preview file input selected files
+
+## Live Preview
+[demo Link](https://web-stair.github.io/fily)
+
 ## Overview
 Fily Plugin is a lightweight and user-friendly plugin designed to enhance the file input experience on your web application. It allows users to preview selected files directly within the browser before uploading them. The plugin supports a variety of popular file formats, including images, audio, video, and PDFs, providing a seamless and intuitive user interface.
 
