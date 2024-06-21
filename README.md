@@ -12,6 +12,7 @@ Fily Plugin is a lightweight and user-friendly plugin designed to enhance the fi
 ## Features
 **Real-time File Preview:** Instantly previews selected files, allowing users to see the content before uploading.
 **Multiple File Support:** Handles multiple file inputs, displaying a preview for each selected file.
+**Expand and Play:** For Images and Videos you can toggle fullscreen by clicking the thumbnail, for PDF you can explore the full file in a new tab by clicking the thumbnail, and for the audio files you can play the file by clicking the play button.
 **Delete Buttons:** You can easily delete unwanted files from selected files with a click.
 **Cross-browser Compatibility:** Ensures consistent performance across major web browsers.
 **Responsive Design:** Previews adapt to various screen sizes and orientations, maintaining usability on mobile and desktop devices.
