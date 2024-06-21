@@ -25,3 +25,9 @@ File Selection: Upon selecting a file, the plugin checks the file extension.
 **Video:** Shows a video player for .mp4 files.
 **PDF:** Renders a preview of the PDF File.
 **Unsupported Files:** Displays icon for the file extension.
+
+## Installation
+Include jQuery in your project.
+Add the plugin's JavaScript and CSS files and the plugin will work immediately for any file input.
+
+The jQuery File Preview Plugin simplifies the file selection process by providing immediate feedback on chosen files, enhancing user experience and reducing errors during file uploads.
