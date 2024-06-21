@@ -1,6 +1,6 @@
 # Fily - jQuery plugin for preview file input selected files
 ## Overview
-The jQuery File Preview Plugin is a lightweight and user-friendly plugin designed to enhance the file input experience on your web application. It allows users to preview selected files directly within the browser before uploading them. The plugin supports a variety of popular file formats, including images, audio, video, and PDFs, providing a seamless and intuitive user interface.
+Fily Plugin is a lightweight and user-friendly plugin designed to enhance the file input experience on your web application. It allows users to preview selected files directly within the browser before uploading them. The plugin supports a variety of popular file formats, including images, audio, video, and PDFs, providing a seamless and intuitive user interface.
 
 ## Supported File Types
 **Image Files:** .png, .jpg, .jpeg, .jfif, .webp, .svg
