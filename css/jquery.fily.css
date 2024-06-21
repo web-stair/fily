@@ -1,0 +1,69 @@
+@import url('https://unpkg.com/file-icon-vectors@1.0.0/dist/file-icon-vectors.min.css');
+.fily-preview.fullscreen {
+	text-align: center;
+}
+.fily-preview.fullscreen opject, .fily-preview.fullscreen video {
+	width: 100% !important;
+	height: 100% !important;
+}
+.fily-preview.fullscreen {
+    cursor: zoom-out;
+}
+.fily-preview .name {
+    white-space: nowrap;
+    text-wrap: wrap;
+    width: calc(100% - 97px);
+    margin: 0 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.fily-preview .thumb:not(:has(audio)) {
+    position: relative;
+}
+.fily-preview .thumb audio {
+    display: none;
+}
+.fily-preview .thumb:has(audio) {
+    width: 57px;
+    height: 57px;
+    background: var(--bs-primary);
+    color: #fff;
+    line-height: 57px;
+    text-align: center;
+}
+.fily-preview .thumb .audio-play {
+    cursor: pointer;
+}
+.fullscreen img, .fullscreen video {
+    position: relative;
+    width: 24px;
+    height: 24px;
+}
+.fily-preview .thumb:not(:has(audio)):after {
+    position: absolute;
+    content: "⤢";
+    width: 24px;
+    height: 24px;
+    background: rgb(0 0 0 / 40%);
+    background-size: cover;
+    top: 50%;
+    left: 50%;
+    margin-left: -12px;
+    margin-top: -12px;
+    color: #fff;
+}
+
+.fily-preview:not(.fullscreen) .thumb:not(:has(audio)) {
+    cursor: zoom-in;
+}
+
+.fily-item .del {
+    background-color: var(--bs-red);
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
