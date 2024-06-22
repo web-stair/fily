@@ -46,7 +46,7 @@ const toggleFullscreen = (el = '.fily-preview') =>
     // Default options
     var defaults = {
         fullscreen      : true,
-        fileTypes       : ['jpg', 'jpeg', 'png', 'webp', 'jfif', 'avif', 'svg', 'pdf', 'srt', 'mp4', 'wav', 'mp3', 'aac']
+        fileTypes       : ['jpg', 'jpeg', 'png', 'webp', 'jfif', 'svg', 'pdf', 'mp4', 'mp3']
     };
 
     options = $.extend(defaults, args);
