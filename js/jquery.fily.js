@@ -253,7 +253,7 @@ const toggleFullscreen = (el = '.fily-preview') =>
     function generatePreviewWrapper(id, inpt) {
 
 		if( $(`.fily-preview[data-fily-id="${id}"]`).length === 0 ) {
-			$(inpt).after( $(`<div class="fily-preview m-auto mt-4" style="width: 450px;max-height:300px;overflow:scroll" data-fily-id="${id}"></div>`) );
+			$(inpt).after( $(`<div class="fily-preview m-auto mt-4" style="width: 450px;max-height:300px;overflow:scroll;max-width: calc(100vw - 60px);" data-fily-id="${id}"></div>`) );
 		}
     }
 
